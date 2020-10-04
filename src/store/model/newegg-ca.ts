@@ -7,8 +7,12 @@ export const NeweggCa: Store = {
 			text: ['are you a human?']
 		},
 		inStock: {
-			container: '#landingpage-cart .btn-primary span',
+			container: 'div#ProductBuy .btn-primary',
 			text: ['add to cart']
+		},
+		maxPrice: {
+			container: 'div#app div.product-price > ul > li.price-current > strong',
+			euroFormat: false
 		}
 	},
 	links: [
